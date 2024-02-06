@@ -1,0 +1,87 @@
+* { 
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 160px;
+}
+
+.header-subheading {
+    font-size: 22px;
+    color: rgb(124, 118, 118);
+
+}
+
+.header-heading {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(77, 75, 75);
+ 
+}
+
+.header-primary-text {
+    margin-top: 15px;
+    color: rgb(134, 130, 130)
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(95, 93, 93, 0.1)
+}
+
+.card-items h1 {
+    color: rgb(95, 99, 104);
+    font-size: 20px;
+}
+
+.card-items p {
+    font-size: 15px;
+    color: rgb(107, 109, 112);
+    margin-top: 2px;
+}
+
+
+.one {
+    border-top: 5px solid rgb(70, 193, 209);
+}
+
+.two {
+    border-top: 5px solid rgb(236, 113, 109);
+}
+
+.three {
+    border-top: 5px solid rgb(230, 168, 89);
+}
+
+.four {
+    border-top: 5px solid rgb(70, 131, 224);
+}
+.icon {
+    text-align: right;
+}
+
